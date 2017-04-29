@@ -1,10 +1,9 @@
-.red{
-  background-color: red
+body {
+	margin: 0;
 }
 
-.white{
-  background-color: white;
-  z-index: 1000;
+.red{
+  background-color: red
 }
 
 .top-third-spacer{
@@ -29,8 +28,7 @@
 }
 
 .tagline-container{
-  margin-top: 5%;
-  margin-bottom: 5%;
+  margin: 3rem 0;
   text-align: center;
 }
 
@@ -41,14 +39,14 @@
 
 .project-container-parent{
   width: 70%;
-  margin-left: 15%; // (100-70)/2
+  margin-left: 15%; /* (100-70)/2 */
+  margin-top: 8%;
 }
 
 .project-container{
   display: inline-block;
   width: 33%;
   height:15%;
-  margin-bottom: 10%
 }
 
 .project-logo{
@@ -61,46 +59,63 @@
 
 .projectSection-container{
   background-color: black;
-  height: 85%;
+  height: 75vh;
   text-align: center;
-  margin-top: -10%;
-  z-index: -1;
   position: relative;
 }
 
 .project-headertext{
-  padding-top: 11%;
+  padding-top: 5vh;
   font-family: 'Raleway', sans-serif;
   font-size: 350%;
   color: white;
 }
 
-.slanted-container{
-  -webkit-clip-path: polygon(0 0, 100% 0, 100% 87%, 0 100%);
-          clip-path: polygon(0 0, 100% 0, 100% 87%, 0 100%);
+.slanted-container {
+	height: 6rem;
+}
+
+.slanted-container--top {
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 100%);
+		  clip-path: polygon(0 0, 100% 0, 100% 0, 0 100%);
+}
+
+.slanted-container--bottom {
+
+  -webkit-clip-path: polygon(100% 100%, 100% 0, 100% 0, 0 100%);
+		  clip-path: polygon(0 0, 100% 0, 100% 0, 0 100%);
+}
+
+.lower-margin-top{
+  margin-top: -3.5rem;
+}
+
+.white {
+	background: white;
+}
+
+.black {
+	background: black;
 }
 
 .project-container-big{
   height: 35%;
   display: inline-block;
   width: 33%;
-  /*background-color: red;*/
 }
 
-.scholarly-logo{
+.project-container-largest{
+  height: 45%;
+  display: inline-block;
+  width: 33%;
+}
+
+.content-logo{
   padding-top: 10%;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  height:80%;
-}
-
-.other-logo{
-  padding-top: 10%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  height: 50%;
+  height: 100%;
 }
 
 .project-label{
@@ -117,7 +132,6 @@
 
 .aboutMeHeaderText{
   padding-top: 3%;
-  color: black;
   font-family: 'Raleway', sans-serif;
   font-size: 350%;
   color: black;
@@ -131,4 +145,42 @@
   font-family: 'Raleway', sans-serif;
   color: black;
   font-size: 170%;
+}
+
+.content-button{
+  display: inline-block;
+  height: 55%;
+  width: 100%;
+  /*background-color: red;*/
+}
+
+.content-button-higher{
+  height: 60%;
+}
+
+.content-subtext{
+  font-family: 'Raleway', sans-serif;
+  font-size: 250%;
+  color: white;
+  text-decoration: none;
+}
+
+.content-subtext:hover{
+  text-decoration: none;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
 }
