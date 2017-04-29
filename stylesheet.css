@@ -1,0 +1,134 @@
+.red{
+  background-color: red
+}
+
+.white{
+  background-color: white;
+  z-index: 1000;
+}
+
+.top-third-spacer{
+  height: 39%;
+  text-align: center;
+}
+
+.name-text{
+  padding-top: 12%;
+  font-family: 'Raleway', sans-serif;
+  font-size: 400%;
+}
+
+.break-line-container{
+  width: 70%;
+}
+
+.break-line{
+  width:50%;
+  text-align:center;
+  text-indent:0;
+}
+
+.tagline-container{
+  margin-top: 5%;
+  margin-bottom: 5%;
+  text-align: center;
+}
+
+.tagline{
+  font-family: 'Raleway', sans-serif;
+  font-size: 200%;
+}
+
+.project-container-parent{
+  width: 70%;
+  margin-left: 15%; // (100-70)/2
+}
+
+.project-container{
+  display: inline-block;
+  width: 33%;
+  height:15%;
+  margin-bottom: 10%
+}
+
+.project-logo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 80%;
+  padding-top: 5%;
+}
+
+.projectSection-container{
+  background-color: black;
+  height: 85%;
+  text-align: center;
+  margin-top: -10%;
+  z-index: -1;
+  position: relative;
+}
+
+.project-headertext{
+  padding-top: 11%;
+  font-family: 'Raleway', sans-serif;
+  font-size: 350%;
+  color: white;
+}
+
+.slanted-container{
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 87%, 0 100%);
+          clip-path: polygon(0 0, 100% 0, 100% 87%, 0 100%);
+}
+
+.project-container-big{
+  height: 35%;
+  display: inline-block;
+  width: 33%;
+  /*background-color: red;*/
+}
+
+.scholarly-logo{
+  padding-top: 10%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height:80%;
+}
+
+.other-logo{
+  padding-top: 10%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 50%;
+}
+
+.project-label{
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  font-size: 150%;
+}
+
+.aboutMeSection{
+  height: 70%;
+  text-align: center;
+  background-color: white;
+}
+
+.aboutMeHeaderText{
+  padding-top: 3%;
+  color: black;
+  font-family: 'Raleway', sans-serif;
+  font-size: 350%;
+  color: black;
+}
+
+.aboutMeParagraphContainer{
+  padding-top: 1%;
+}
+
+.aboutMeParagraphText{
+  font-family: 'Raleway', sans-serif;
+  color: black;
+  font-size: 170%;
+}
